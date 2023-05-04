@@ -19,9 +19,9 @@ abstract class Principal {
                 c.setEndereco(l.entDados("\nQual o endereco da sua casa?"));
                 c.setTipo(l.entDados("\nQual o tipo de casa?(Para aluguel, venda, etc)"));
             c.setProprietario(l.entDados("\nQual o proprietario da casa?"));
-            c.setArea(Float.parseFloat(l.entDados("\nQual a area da casa?")));
+            c.setArea(Float.parseFloat(l.entDados("\nQual a area da casa?(Apenas do imovel em si)")));
             c.setPreco(Float.parseFloat(l.entDados("\nQual o preco da casa?")));
-            c.setArea_terreno(Float.parseFloat(l.entDados("\nQual a area extra do terreno?")));
+            c.setArea_terreno(Float.parseFloat(l.entDados("\nQual a area do terreno?")));
             c.setIdade_construcao(Integer.parseInt(l.entDados("\nQuando foi feita a casa?")));
             
             System.out.println("\nEndereco ...............: "+c.getEndereco());
