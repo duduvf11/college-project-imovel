@@ -1,4 +1,5 @@
-public class Sala_Comercial extends Imovel{
+// Eduardo Viegas Francisco RA:2525259
+final class Sala_Comercial extends Imovel{
 
     private String tipo_negocio;
     private int capacidade_max;

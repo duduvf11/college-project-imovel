@@ -1,4 +1,5 @@
-public class Casa extends Imovel{
+// Eduardo Viegas Francisco RA:2525259
+final class Casa extends Imovel{
 
     private float area_terreno;
     private int idade_construcao;

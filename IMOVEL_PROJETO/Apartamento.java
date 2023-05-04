@@ -1,4 +1,5 @@
-public class Apartamento extends Imovel{
+// Eduardo Viegas Francisco RA:2525259
+final class Apartamento extends Imovel{
 
     private float preco_condominio;
     private String varanda;
