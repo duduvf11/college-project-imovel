@@ -39,7 +39,7 @@ abstract class Principal {
             a.setArea(Float.parseFloat(l.entDados("\nQual a area do apartamento?")));
             a.setPreco(Float.parseFloat(l.entDados("\nQual o preco do apartamento?")));
             a.setPreco_condominio(Float.parseFloat(l.entDados("\nQual o preco do condominio?")));
-            a.setVaranda(l.entDados("\nO apartamento tem varanda?"));
+            a.setVaranda(l.entDados("\nO apartamento tem quantas varanda?"));
 
             System.out.println("\nEndereco ...................................: "+a.getEndereco());
             System.out.println("Tipo de Apartamento ........................: "+a.getTipo());
