@@ -80,7 +80,7 @@ public class Principal implements Agradecimetos{
     }
 
     private static void obrigado() {
-        System.out.println("Obrigado por se cadastrar!");
+        System.out.println("\tObrigado por se cadastrar!\n");
     }
 
 }
