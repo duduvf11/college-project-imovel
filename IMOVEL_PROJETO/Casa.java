@@ -4,7 +4,18 @@ final class Casa extends Imovel{
     private float area_terreno;
     private int idade_construcao;
     
-    
+    Casa(){
+
+        setArea_terreno(0);
+        setIdade_construcao(0);
+    }
+
+    Casa(float area_terreno, int idade_construcao ){
+        this.area_terreno = area_terreno;
+        this.idade_construcao = idade_construcao;
+        
+    }
+
     public float getArea_terreno() {
         return area_terreno;
     }

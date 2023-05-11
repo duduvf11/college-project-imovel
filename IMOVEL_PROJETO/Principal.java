@@ -6,9 +6,9 @@ abstract class Principal {
         int modelo = 0;
 
         Leitura l = new Leitura();
-        Casa c = new Casa();
-        Apartamento a = new Apartamento();
-        Sala_Comercial sc = new Sala_Comercial();
+        Casa c = new Casa(0,0);
+        Apartamento a = new Apartamento(0,"");
+        Sala_Comercial sc = new Sala_Comercial("", 0);
 
        
         do{

@@ -4,6 +4,16 @@ final class Sala_Comercial extends Imovel{
     private String tipo_negocio;
     private int capacidade_max;
 
+    Sala_Comercial(){
+        setTipo_negocio("");
+        setCapacidade_max(4);
+    }
+
+    Sala_Comercial(String tipo_negocio, int capacidade_max){
+        this.tipo_negocio = tipo_negocio;
+        this.capacidade_max = capacidade_max;
+    }
+
     public String getTipo_negocio() {
         return tipo_negocio;
     }
