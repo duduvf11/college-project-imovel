@@ -1,5 +1,5 @@
 // Eduardo Viegas Francisco RA:2525259
-abstract class Principal {
+public class Principal implements Agradecimetos{
 
     public static void main(String arg[]){
 
@@ -29,7 +29,9 @@ abstract class Principal {
                 c.setPreco(Float.parseFloat(l.entDados("\nQual o preco da casa?")));
                 c.setArea_terreno(Float.parseFloat(l.entDados("\nQual a area do terreno?")));
                 c.setIdade_construcao(Integer.parseInt(l.entDados("\nQuando foi feita a casa?")));
+
                 c.exibirDados();
+                obrigado();
                 break;
             
             case 2:
@@ -42,6 +44,7 @@ abstract class Principal {
                 a.setVaranda(l.entDados("\nO apartamento tem quantas varanda?"));
                 
                 a.exibirDados();
+                obrigado();
                 break;
             
             case 3:
@@ -64,6 +67,7 @@ abstract class Principal {
                 }
                     
                 sc.exibirDados();
+                obrigado();
                 break;
             
             default:
@@ -74,4 +78,9 @@ abstract class Principal {
     }while(modelo != 1 && modelo != 2 && modelo != 3);
         
     }
+
+    private static void obrigado() {
+        System.out.println("Obrigado por se cadastrar!");
+    }
+
 }
