@@ -9,6 +9,7 @@ final class Sala_Comercial extends Imovel{
         setCapacidade_max(4);
     }
 
+    //polimorfismo por sobrecarga
     Sala_Comercial(String tipo_negocio, int capacidade_max){
         this.tipo_negocio = tipo_negocio;
         this.capacidade_max = capacidade_max;

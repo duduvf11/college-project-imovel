@@ -10,6 +10,7 @@ final class Casa extends Imovel{
         setIdade_construcao(0);
     }
 
+    //polimorfismo por sobrecarga
     Casa(float area_terreno, int idade_construcao ){
         this.area_terreno = area_terreno;
         this.idade_construcao = idade_construcao;

@@ -9,6 +9,7 @@ final class Apartamento extends Imovel{
         setVaranda("");
     }
 
+    //polimorfismo por sobrecarga
     Apartamento(float preco_condominio, String varanda){
         this.preco_condominio = preco_condominio;
         this.varanda = varanda;
