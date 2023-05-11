@@ -40,8 +40,8 @@ final class Sala_Comercial extends Imovel{
         System.out.println("\nEndereco .......................: "+this.getEndereco());
         System.out.println("Tipo de Sala Comercial .........: "+this.getTipo());
         System.out.println("Proprietario da Sala Comercial .: "+this.getProprietario());
-        System.out.println("Area da Sala Comercial .........: "+this.getArea());
-        System.out.println("Preco da Sala Comercial ........: "+this.getPreco());
+        System.out.println("Area da Sala Comercial .........: "+this.getArea() +"m²");
+        System.out.println("Preco da Sala Comercial ........: R$ "+this.getPreco());
         System.out.println("Tipo de Negocio ................: "+this.getTipo_negocio());
         System.out.println("Capacidade Maxima ..............: "+this.getCapacidade_max());
     }

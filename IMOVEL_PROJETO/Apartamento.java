@@ -37,9 +37,9 @@ final class Apartamento extends Imovel{
         System.out.println("\nEndereco ...................................: "+this.getEndereco());
         System.out.println("Tipo de Apartamento ........................: "+this.getTipo());
         System.out.println("Proprietario do Apartamento ................: "+this.getProprietario());
-        System.out.println("Area do Apartamento ........................: "+this.getArea());
-        System.out.println("Preco do Apartamento .......................: "+this.getPreco());
-        System.out.println("Preco do Apartamento .......................: "+this.getPreco_condominio());
+        System.out.println("Area do Apartamento ........................: "+this.getArea() +"m²");
+        System.out.println("Preco do Apartamento .......................: R$ "+this.getPreco());
+        System.out.println("Preco do Condominio .......................: R$ "+this.getPreco_condominio());
         System.out.println("Quantidade de Varandas .....................: "+this.getVaranda());
     }
 }
