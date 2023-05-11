@@ -33,4 +33,15 @@ final class Casa extends Imovel{
         this.idade_construcao = idade_construcao;
     }
 
+    //polimorfismo por sobreescrita
+    public void exibirDados() {
+        System.out.println("================================ Casa ================================");
+        System.out.println("\nEndereco ...............: "+this.getEndereco());
+        System.out.println("Tipo de Casa ...........: "+this.getTipo());
+        System.out.println("Proprietario da Casa  ..: "+this.getProprietario());
+        System.out.println("Area da Casa  ..........: "+this.getArea());
+        System.out.println("Preco da Casa  .........: "+this.getPreco());
+        System.out.println("Area do Terreno ........: "+this.getArea_terreno());
+        System.out.println("Idade da Construcao ....: "+this.getIdade_construcao());
+    }
 }

@@ -6,7 +6,6 @@ final class Sala_Comercial extends Imovel{
 
     Sala_Comercial(){
         setTipo_negocio("");
-        setCapacidade_max(4);
     }
 
     //polimorfismo por sobrecarga
@@ -27,7 +26,23 @@ final class Sala_Comercial extends Imovel{
         this.tipo_negocio = tipo_negocio;
     }
 
-    public void setCapacidade_max(int capacidade_max) {
+    public void setCapacidade_max(int capacidade_max) throws CapacidadeMaximaException{
+        if(capacidade_max > 4){
+            throw new CapacidadeMaximaException();
+    
+        }
         this.capacidade_max = capacidade_max;
+    }
+
+    //polimorfismo por sobreescrita
+    public void exibirDados() {
+        System.out.println("================================ Sala Comercial ================================");
+        System.out.println("\nEndereco .......................: "+this.getEndereco());
+        System.out.println("Tipo de Sala Comercial .........: "+this.getTipo());
+        System.out.println("Proprietario da Sala Comercial .: "+this.getProprietario());
+        System.out.println("Area da Sala Comercial .........: "+this.getArea());
+        System.out.println("Preco da Sala Comercial ........: "+this.getPreco());
+        System.out.println("Tipo de Negocio ................: "+this.getTipo_negocio());
+        System.out.println("Capacidade Maxima ..............: "+this.getCapacidade_max());
     }
 }

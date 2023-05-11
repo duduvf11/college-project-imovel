@@ -1,4 +1,4 @@
-public class Imovel{
+abstract class Imovel{
 
     private String endereco;
     private String tipo;
@@ -46,5 +46,7 @@ public class Imovel{
         this.preco = preco;
     }
 
+    //polimorfismo por sobreescrita
+    public abstract void exibirDados();
 
 }
