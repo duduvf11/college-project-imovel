@@ -31,7 +31,7 @@ public class Principal implements Agradecimetos{
                 c.setIdade_construcao(Integer.parseInt(l.entDados("\nQuando foi feita a casa?")));
 
                 c.exibirDados();
-                obrigado();
+                Agradecimetos.obrigado();
                 break;
             
             case 2:
@@ -44,7 +44,7 @@ public class Principal implements Agradecimetos{
                 a.setVaranda(l.entDados("\nO apartamento tem quantas varanda?"));
                 
                 a.exibirDados();
-                obrigado();
+                Agradecimetos.obrigado();
                 break;
             
             case 3:
@@ -67,7 +67,7 @@ public class Principal implements Agradecimetos{
                 }
                     
                 sc.exibirDados();
-                obrigado();
+                Agradecimetos.obrigado();
                 break;
             
             default:
@@ -78,9 +78,5 @@ public class Principal implements Agradecimetos{
     }while(modelo != 1 && modelo != 2 && modelo != 3);
         
     }
-
-    private static void obrigado() {
-        System.out.println("\tObrigado por se cadastrar!\n");
-    }
-
+    
 }
